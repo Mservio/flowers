@@ -1,0 +1,6 @@
+git add .
+
+git commit -m "teste generico alteração"
+
+git push
+
