@@ -1,28 +1,41 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!-- vai dizer que pra quem está lendo que é um arquivo HTML -->
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedido para sair</title>
-    <link rel="stylesheet" href="src/css/index.css">
+    <meta name="description" content="Wikipedia dos pokemons">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="src/css/index.css">
+    <link rel="shortcut icon" type="imagex/png" href="https://img.icons8.com/color/48/000000/psyduck.png">
 </head>
-<body>
-    <h1>Você quer sair comigo ?</h1>
 
-    <fieldset>
-        <legend>Choose your monster's features:</legend>
-    
-        <div>
-          <input type="checkbox" id="scales" name="scales" checked>
-          <label for="scales">Scales</label>
+<body>
+
+    <!-- indica que o que está dentro dele faz parte do cabeçalho-->
+
+    <header class="cabeçalho">
+        
+    </header>
+
+    <!-- é a parte principal da pagina-->
+
+    <main >
+        <div class="centralizar">
+            <section class="conteudo-principal">
+                <div class="conteudo-principal-escrito">
+                    <h1 class="conteudo-principal-escrito-titulo"> Olá, Ana Flowers </h1>
+                    <h2 class="conteudo-principal-escrito-subtitulo">Um convite de diferente para uma pessoa diferenciada. </h2>
+                    <div class="centralizar"> 
+                        <button onclick="window.location='login.html';" class="conteudo-principal-escrito-botao"> Clique para abrir !</button>
+                    </div>
+                </div>
+            </section>
         </div>
-    
-        <div>
-          <input type="checkbox" id="horns" name="horns">
-          <label for="horns">Horns</label>
-        </div>
-    </fieldset>
-    
+       
+        
+    </main>
+
 </body>
+
 </html>
