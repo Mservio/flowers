@@ -11,6 +11,8 @@
 body {
   font-size: 100%;
   background: linear-gradient(68.15deg, #321d2e 16.62%, #f23460 85.61%);
+  height: 100%;
+  background-attachment: fixed;
 }
 
 a {
@@ -45,11 +47,10 @@ a {
   text-decoration: none;
 }
 
-body {
+main {
   height: 100vh;
   align-items: center;
   justify-content: center;
-
 }
 
 .conteudo {
@@ -116,7 +117,7 @@ body {
   height: 430px;
 }
 
-.conteudo-secuondario {
+.conteudo-secundario {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,17 +140,6 @@ body {
   font-weight: 290;
   font-size: 18px;
   color: #ecd6c4;
-}
-
-.rodape {
-  padding: 32px;
-  border-top: 0.4px solid #fff2e7;
-}
-
-.rodape-imagem {
-  height: 48px;
-  display: block;
-  margin: 0 auto;
 }
 
 .conteudo-mensagem {
