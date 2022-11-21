@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+ <script src="src/js/custom.js"></script>
     <main >
         <div class="centralizar">
             <section class="conteudo-principal">
@@ -19,11 +19,19 @@
                     <h1 class="conteudo-principal-escrito-titulo"> Olá, perfeição do mundo ! </h1>
                     <h2 class="conteudo-principal-escrito-subtitulo">Você tem muita beleza. <br>
                         É o ser mais belo desse universo e de toda a Via Lactea. <br>
-                        Nada nem ninguém se compara à você, nenem. <br>
+                        Nada nem ninguém se compara à você, meu bem. <br>
                         Por isso, um convite diferente para uma pessoa diferenciada.  </h2>
+                    <h2></h2>    
                     <div class="centralizar"> 
-                        <button class="conteudo-principal-escrito-botao"> Clique para abrir !</button>
+                        <button id="botao" onclick="carregar()" type="submit"
+                         class="conteudo-principal-escrito-botao"> Clique para abrir !</button>
+                        
+                            <div class="ocultar" id="oculto"> <!--div dos conteudos que ficarão cultos-->
+                                <p id="conteudo" class="conteudo-mensagem">  Você quer sair comigo ?</p> 
+                                <img class="flork" src="src/imagens/flork.jpg"> 
+                            </div>
                     </div>
+                    
                 </div>
             </section>
         </div>
